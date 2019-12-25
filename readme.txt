@@ -16,3 +16,5 @@ git status
 
 5.通过git log来查看提交履历
 git log
+
+测试版本回退的内容
