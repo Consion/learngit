@@ -44,3 +44,6 @@ git reflog
 git checkout -- filename
 	a.如果该文件没有通过git add .新增到暂存区，则通过该命令可以将文件还原到当前版本库版本。
 	b.如果该文件已经被添加到暂存区中后修改，执行该命令将该文件恢复到添加暂存区中后的状态。
+
+11.还原暂存区中的修改到工作区中
+git reset HEAD filename
