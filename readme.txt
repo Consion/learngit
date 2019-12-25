@@ -32,4 +32,6 @@ git reflog
 	a.stage（index）的暂存区
 	b.git为我们创建的第一个master分支，及指向master分支的HEAD指针
 工作目录中的文件通过git add命令来放入到暂存区，然后通过git commit命令来将暂存区中的更改提交到当前分支上。
+
+测试git暂存区的概念
 	
