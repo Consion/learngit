@@ -38,5 +38,5 @@ git reflog
 通过对一个文件的修改，第一次执行git add .，第二次直接git commit，执行git status发现文件还是为modifiy状态，发现git add .是把文件的修改
 增加到暂存区中，git Commit命令是将暂存区中的更改提交到分支中。
 
-使用git diff HEAD -- readme.txt
+使用git diff HEAD -- readme.txt来显示和上一个版本不同处
 	
