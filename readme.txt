@@ -10,6 +10,9 @@ git add readme.txt [file2.txt file3.txt]
 
 git commit -m "wrote a readme file."
 
-4比较文件和版本的不同，并查看状态
+4.比较文件和版本的不同，并查看状态
 git diff readme.txt
 git status
+
+5.通过git log来查看提交履历
+git log
