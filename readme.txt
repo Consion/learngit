@@ -47,3 +47,12 @@ git checkout -- filename
 
 11.还原暂存区中的修改到工作区中
 git reset HEAD filename
+
+12.删除git文件
+git rm filename然后执行git commit命令来完成删除操作的提交。
+
+13.远程仓库
+ssh-keygen -t rsa -C "emailAddress"来创建公钥和私钥
+
+14.关联远程仓库
+git remote add origin git@github.com:Consion/learngit.git
